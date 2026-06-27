@@ -1,4 +1,3 @@
-package MadLib;
 import java.util.Scanner;
 public class Madlib {
     public static void main(String[] args){
@@ -26,7 +25,7 @@ public class Madlib {
         noun2 = scanner.nextLine();
 
         System.out.println("==== BRAVE EXPLORER : MYSTERIOUS TREASURE ====");
-        System.out.println("The " + adjective1 + "  explorer decided to " + verb1 + " towards the " + adjective2 + " treasure, but a giant " + noun1 + 
+        System.out.println("The " + adjective1 + " explorer decided to " + verb1 + " towards the " + adjective2 + " treasure, but a giant " + noun1 + 
         " suddenly appeared from the shadows. Using courage and quick thinking, the explorer escaped the dragon and finally reached the hidden treasure, becoming the "+ noun2 +" of the adventure!");
 
         scanner.close();
